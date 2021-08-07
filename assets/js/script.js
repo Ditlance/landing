@@ -38,3 +38,14 @@ home.on('click', function(e) {
   e.preventDefault();
   $('html, body').animate({scrollTop:0}, '300');
 });
+
+const closeModal = document.querySelector(".close-modal");
+const modal = document.querySelector(".modal1");
+const modalContainer = document.querySelector(".modal-container");
+
+closeModal.addEventListener("click", () => {
+  setTimeout(() => {
+    modal.classList.add("hide");
+  },800);
+  modalContainer.classList.add("hide");
+});
