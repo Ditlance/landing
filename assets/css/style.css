@@ -218,9 +218,13 @@ footer .logoF img{
 }
 .iconF img{
     margin-left: 5px;
+    transition: all 1s;
 }
 .bold{
   font-weight: bold;
+}
+.iconF a img:hover{
+  transform: Scale(1.1);
 }
 
 
