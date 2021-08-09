@@ -498,6 +498,7 @@ background-color: #00AFEF;
     margin: auto;
   }
   .box_biru{
+    height: 103vh;
     width: 100%;
     /* opacity: 0.2; */
     top: 0;
@@ -510,7 +511,7 @@ background-color: #00AFEF;
     width: 320px;
     height: 240px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 80px;
     margin-bottom: 100px;
   }
 
