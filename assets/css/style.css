@@ -182,18 +182,21 @@ iframe {
 }
 
 /* Service */
-.service_c {
+.grid_c {
   width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  justify-items: center;
+}
+.gta1{
+  grid-template-areas: 'img teks';
+}
+.gta2{
+  grid-template-areas: 'teks img';
 }
 .boxImg {
-  width: 530px;
-  height: 350px;
-  margin-right: 60px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.boxImg2 {
+  grid-area: img;
   width: 530px;
   height: 350px;
   margin-right: 60px;
@@ -202,7 +205,8 @@ iframe {
   background-size: cover;
 }
 .boxTeks {
-  max-width: 500px;
+  grid-area: teks;
+  max-width: 530px;
 }
 
 /* testimoni */
@@ -522,29 +526,9 @@ footer .logoF img {
   #service {
     margin: 0 4%;
   }
-  .service_c {
-    margin: 1px;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-  }
-  .service_c p {
-    font-size: 16px;
-  }
-  .service_c ul {
-    margin-left: 20px;
-    margin-bottom: 40px;
-  }
-  .boxImg {
-    width: 90vw;
-    max-height: 220px;
-    margin-bottom: 20px;
-  }
-  .service_c .boxImg.f-right {
-    float: none;
-  }
-  .service_c .boxImg.s2 {
-    margin-left: 0;
+  .grid_c{
+    display: grid;
+
   }
   .testimoni.p-ab5 {
     padding: 8% 4% 12% 8%;
