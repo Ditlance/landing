@@ -468,7 +468,6 @@ footer .logoF img {
   .home .home_c {
     flex-direction: column;
     text-align: center;
-    width: 100vw;
   }
   .home .home_c .mw-530{
   margin: auto;
