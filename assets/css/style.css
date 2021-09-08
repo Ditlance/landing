@@ -708,18 +708,18 @@ footer .logoF img {
     align-items: center;
     align-content: center;
   }
-  #footer {
-    height: 48vh;
-  }
+  /* #footer {
+    height: max;
+  } */
   .teksF {
     text-align: right;
     margin-top: 40px;
     font-size: 15px;
   }
-  #footer .logoF img {
+  /* #footer .logoF img {
     width: 200px;
   }
   #footer .logoF {
     margin-top: 60px;
-  }
+  } */
 }
